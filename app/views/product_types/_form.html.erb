@@ -1,0 +1,25 @@
+
+<div class ="content">
+  <h1>Product_Type</h1>
+  <%= flash[:notice]%>
+<% if action_name == "new" or action_name == "edit" %>
+    <%= simple_form_for(@ptype, remote: true) do |f| %>
+        <%= f.text_field :name, label: "Product Type" %>
+        <%= f.submit %>
+    <% end%>
+<% end %>
+<br>
+<%= link_to 'Create New Type' , new_product_type_path, remote: true%>
+<table>
+  <% @ptypes.each do |p| %>
+      <tr>
+        <td> <%= p.name %> <br>   </td>
+        <td> <%= link_to 'Edit' ,edit_product_type_path(p), remote: true %>    </td>
+        <td> <%= link_to 'show', product_type_path(p), remote: true %>    </td>
+
+        <td> <%= link_to 'Delete', product_type_path(p), remote: true,method: :delete,:class => 'delete_pony'  %>    </td>
+
+      </tr>
+  <% end %>
+</table>
+    </div>
