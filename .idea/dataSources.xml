@@ -6,7 +6,7 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/ebuy_development</jdbc-url>
       <user-name>postgres</user-name>
-      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffadfeddff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails ebuy: test" uuid="b2dc1562-08a9-41b4-b32b-a2d9a0efc15d">
@@ -14,7 +14,7 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/ebuy_test</jdbc-url>
       <user-name>postgres</user-name>
-      <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffadfeddff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails ebuy: production" uuid="184ae2a9-6bdc-4fe8-a203-29a47629151c">
